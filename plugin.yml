@@ -1,0 +1,14 @@
+name: RealLifeHome
+version: 1.0.0
+main: reallifehome\Main
+api: 5.0.0
+depend:
+  - BedrockEconomy
+  - FormAPI
+commands:
+  rlife:
+    description: 土地管理コマンド
+    permission: reallifehome.command
+permissions:
+  reallifehome.command:
+    default: op
