@@ -1,0 +1,43 @@
+ja_JP:
+  prefix: "§7[§aRealLifeHome§7] §r"
+
+  only-in-world: "%prefix% このワールドでは使用できません。"
+  no-permission: "%prefix% あなたにはその権限がありません。"
+
+  pos1-set: "%prefix% pos1 を設定しました。"
+  pos2-set: "%prefix% pos2 を設定しました。"
+
+  land-set: "%prefix% 土地「%land%」を作成しました。"
+  land-already-exists: "%prefix% その名前の土地はすでに存在します。"
+  land-not-found: "%prefix% 土地「%land%」は存在しません。"
+  land-removed: "%prefix% 土地「%land%」を削除しました。"
+
+  max-members-set: "%prefix% 「%land%」の同居人上限を %max% に設定しました。"
+
+  sign-invalid: "%prefix% 看板の書式が無効です。"
+  sign-land-not-found: "%prefix% 対象の土地が見つかりません。"
+  sign-already-owned: "%prefix% この土地はすでに所有されています。"
+  sign-not-owner: "%prefix% この土地の所有者ではありません。"
+  sign-purchased: "%prefix% 土地「%land%」を %price% 円で購入しました！"
+
+  ui_main_title: "RealLifeHome - メインメニュー"
+  ui_no_own_lands: "あなたはまだ土地を所有していません。"
+  ui_my_land_button: "土地：%name%"
+  ui_land_menu_title: "土地：%name%"
+  ui_info_line: |
+    所有者: %owner%
+    金額: %price%円
+    同居人: %members%
+    上限: %max%人
+  ui_btn_add_member: "同居人を追加"
+  ui_btn_remove_member: "同居人を削除"
+  ui_btn_leave: "退去（半額返金）"
+  ui_btn_close: "閉じる"
+  ui_add_member_title: "同居人追加 - %name%"
+  ui_remove_member_title: "同居人削除 - %name%"
+  ui_member_cap_reached: "%prefix% 同居人の上限に達しています。"
+  ui_already_member: "%prefix% そのプレイヤーはすでに同居人です。"
+  ui_cannot_add_self: "%prefix% 自分自身を追加することはできません。"
+  ui_added_ok: "%prefix% %player% を同居人に追加しました。"
+  ui_remove_ok: "%prefix% 同居人を削除しました。"
+  ui_refund_ok: "%prefix% 土地を退去し、%amount% 円が返金されました。"
