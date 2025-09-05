@@ -1,0 +1,29 @@
+# RealLifeHome 設定ファイル
+
+# このプラグインを適用するワールド名（複数可）
+worlds:
+  - world
+
+# 同居人のデフォルト最大人数（本人含む）
+default-max-members: 2
+
+# UI表示などに使う言語ファイル（resources/messages.yml に定義されているキー）
+language: ja_JP
+
+# UI設定（必要に応じて調整可能）
+ui:
+  main-title: "RealLifeHome - メニュー"
+  no-own: "あなたはまだ土地を所有していません。"
+  my-land-button: "土地：%name%"
+  land-menu-title: "土地情報：%name%"
+  info-line: |
+    所有者: %owner%
+    金額: %price%円
+    同居人: %members%
+    上限: %max%人
+  btn-add-member: "同居人を追加"
+  btn-remove-member: "同居人を削除"
+  btn-leave: "退去（半額返金）"
+  btn-close: "閉じる"
+  add-member-title: "追加先：%name%"
+  remove-member-title: "削除先：%name%"
